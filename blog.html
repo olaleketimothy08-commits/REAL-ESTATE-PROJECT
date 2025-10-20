@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>HABITAT</title>
+  <link rel="icon" href="Images/real_estate-removebg-preview.png">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="blog.css">
 </head>
 <body>
@@ -19,26 +21,26 @@
     </div>
   </nav>
 
-  <section class="blog-header">
+  <section class="blog-header" data-aos="fade-right" data-aos-duration="3000">
     <h1>Welcome to Our Real Estate Blog</h1>
     <p>Your source for the latest news, tips, and insights in the real estate market.</p>
     <main>
     <img src="Images/real-estate-1-1.png" alt="">
     
       <h2>Latest Articles</h2>
-      <article>
+      <article data-aos="fade-up" data-aos-duration="3000">
         <h3>Tips for First-Time Home Buyers</h3>
         <p>Buying your first home can be both exciting and overwhelming. Here are some tips to help you navigate the process...</p>
         <a href="#">Read More</a>
       </article>
 
-      <article>
+      <article data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <h3>Understanding the Real Estate Market Trends in 2025</h3>
         <p>The real estate market is constantly evolving. In 2024, we are seeing new trends that buyers and sellers should be aware of...</p>
         <a href="#">Read More</a>
       </article>
 
-      <article>
+      <article data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <h3>How to Stage Your Home for a Quick Sale</h3>
         <p>Staging your home can make a significant difference in how quickly it sells. Here are some effective staging tips...</p>
         <a href="#">Read More</a>
@@ -86,5 +88,10 @@
       </div>
     </main>
   </footer>
+
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
