@@ -36,68 +36,6 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   position: fixed;
   top: 0;
-  width: 100%;
-  padding-bottom: -30px;
-}
-
-.navbar .div button a {
-  text-decoration: none;
-  color: blue;
-  padding: 10px;
-}
-
-.navbar .div button a:hover {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
-  padding: 10px;
-  text-transform: uppercase;
-}
-
-.navbar .div button {
-  border: none;
-  background: none;
-  border-radius: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-
-.navbar ul li {
-  list-style: none;
-  display: inline;
-  padding-left: 20px;
-}
-
-.navbar ul li a {
-  text-decoration: none;
-  color: black;
-}
-
-.navbar ul li a:hover {
-  color: rgb(92, 11, 95);
-  background-color: whitesmoke;
-  padding: 10px;
-}
-
-.navbar img {
-  width: 200px;
-  height: 150px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin-top: -40px;
-  background-color: whitesmoke;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  position: fixed;
-  top: 0;
   z-index: 1;
   width: 100%;
   padding-bottom: -30px;
@@ -105,17 +43,24 @@
 
 .navbar .div button a {
   text-decoration: none;
-  color: blue;
-  padding: 10px;
+  color: rgb(235, 235, 235);
+  /* padding: 10px; */
+  font-size: 20px;
+  background-color: blue;
+   border-radius: 10px;
+  padding: 10px 10px;
 }
 
 .navbar .div button a:hover {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
   padding: 10px;
   text-transform: uppercase;
+} 
+.navbar .div button {
+  border: none;
+  background: blue;
+ 
 }
+
 
 .blog-header {
   margin-top: 180px;

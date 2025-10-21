@@ -47,22 +47,21 @@
 
 .navbar .div button a {
   text-decoration: none;
-  color: blue;
+  color: rgb(235, 235, 235);
   padding: 10px;
+  font-size: 15px;
 }
 
 .navbar .div button a:hover {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
   padding: 10px;
   text-transform: uppercase;
 } 
 
 .navbar .div button {
   border: none;
-  background: none;
+  background: blue;
   border-radius: 10px;
+  padding: 10px 10px;
 }
 
 .header {

@@ -41,37 +41,37 @@
   padding-bottom: -30px;
 }
 
+
 .navbar .div button a {
   text-decoration: none;
-  color: blue;
+  color: rgb(235, 235, 235);
   padding: 10px;
+  font-size: 15px;
 }
 
 .navbar .div button a:hover {
-  color: white;
-  background-color: blue;
-  border-radius: 10px;
   padding: 10px;
   text-transform: uppercase;
 } 
 
 .navbar .div button {
   border: none;
-  background: none;
+  background: blue;
   border-radius: 10px;
+  padding: 10px 10px;
 }
 
 .section h1 {
   font-size: 48px;
   color: rgb(67, 195, 238);
   text-align: center;
-  margin-top: 160px;
+  margin-top: 120px;
 }
 
 .section p {
   text-align: center;
   margin-top: 5px;
-  color: black
+  color: rgb(252, 244, 244)
 }
 
  .section input {
@@ -98,16 +98,39 @@
 .section .a {
   text-decoration: none;
   margin-left: 520px;
-  color: rgb(71, 130, 238);
+  color: rgb(239, 241, 245);
 }
 
 .section .b  {
   text-decoration: none;
   margin-left: 130px;
   margin-top: -50px;
-  color: rgb(71, 130, 238);
+  color: rgb(242, 244, 247);
 }
 
+.article { 
+  background-image: url(Images/bbb3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 80vh;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 50px;
+  opacity: 0.9;
+
+  animation-name:habitat;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes habitat {
+  0% {background-image: url(Images/bbb3.jpg);}
+  25% {background-image: url(Images/bbb.jpg);}
+  50% {background-image: url(Images/bbb4.jpg);}
+  75% {background-image: url(Images/bbb5.jpg);}
+  100% {background-image: url(Images/bb6.jpg);}
+}
 .footer {
   background-color: rgb(17, 11, 95);
   color: white;
