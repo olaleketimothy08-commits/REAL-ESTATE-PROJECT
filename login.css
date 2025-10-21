@@ -223,14 +223,14 @@
 .section .a {
   text-decoration: none;
   margin-left: 50px;
-  color: rgb(71, 130, 238);
+  color: rgb(255, 255, 255);
 }
 
 .section .b {
   text-decoration: none;
   margin-left: 110px;
   margin-top: -50px;
-  color: rgb(71, 130, 238);
+  color: rgb(255, 255, 255);
 }
 
   .footer main {
